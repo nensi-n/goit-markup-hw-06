@@ -738,6 +738,8 @@ footer {
 }
 
 .footer-btn {
+  display: flex;
+  align-items: center;
   font-family: inherit;
   min-width: 200px;
   font-weight: 700;
@@ -746,8 +748,6 @@ footer {
   text-align: center;
   letter-spacing: 0.06em;
 
-  display: flex;
-  align-items: center;
   cursor: pointer;
   color: var(--main-lite-color);
   background-color: var(--accent-color);
